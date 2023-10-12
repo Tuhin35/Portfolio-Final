@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0fb93d00.css",
+    "main.js": "/static/js/main.ddf66a6a.js",
+    "static/media/social.png": "/static/media/social.89b89c0c424313d0417a.png",
+    "static/media/travel.png": "/static/media/travel.45f35e529a0e17a89e4f.png",
+    "static/media/resel.png": "/static/media/resel.f386066cdd91c8d3d839.png",
+    "static/media/doctorportal.png": "/static/media/doctorportal.467bbbb8bbc65ee1400b.png",
+    "static/media/site-bg.jpg": "/static/media/site-bg.54724d703024833ef9c6.jpg",
+    "static/media/Banners.png": "/static/media/Banners.94a819e679e12d1ce378.png",
+    "static/media/Raihan Uddin Tuhin resume.pdf": "/static/media/Raihan Uddin Tuhin resume.f599a29b48e82980e4cc.pdf",
+    "static/media/about.png": "/static/media/about.43f911cc3cd63d3aa2bf.png",
+    "static/media/html-svgrepo-com.svg": "/static/media/html-svgrepo-com.4395a089ee4b1338c0e94e212b6dd055.svg",
+    "static/media/firebase-svgrepo-com.svg": "/static/media/firebase-svgrepo-com.5b996929936cc75446689d521c9018a1.svg",
+    "static/media/github-svgrepo-com.svg": "/static/media/github-svgrepo-com.fdc232dac5f0057d8d77c9c77a8788ae.svg",
+    "static/media/react-2.svg": "/static/media/react-2.e68b35f4774979ae220b1d5d7b345b00.svg",
+    "static/media/css-3-svgrepo-com.svg": "/static/media/css-3-svgrepo-com.7e88a7277f0af811d019f3c9b3618666.svg",
+    "static/media/netlify.svg": "/static/media/netlify.c779369f482f2cbac69c91972c7157a7.svg",
+    "static/media/node-svgrepo-com.svg": "/static/media/node-svgrepo-com.5e645e90af41ff96310fe300db55bcd5.svg",
+    "static/media/bootstrap-5-1.svg": "/static/media/bootstrap-5-1.98585727bcfe0b1555649ec9bbab236c.svg",
+    "static/media/vercel.svg": "/static/media/vercel.92c172f3cac1b86bd80d0ff64dc77317.svg",
+    "static/media/express-js-icon.svg": "/static/media/express-js-icon.ea97b712340ffb8f11d85ccb96309507.svg",
+    "static/media/figma-svgrepo-com.svg": "/static/media/figma-svgrepo-com.6a63a212eeb02d43223589e6efc96c17.svg",
+    "static/media/tailwind-css-2.svg": "/static/media/tailwind-css-2.315d0ac2a2708d5f06972906113dfbf1.svg",
+    "static/media/mongodb-svgrepo-com.svg": "/static/media/mongodb-svgrepo-com.634dd4c326dd4bb1d292a8180bbacffd.svg",
+    "index.html": "/index.html",
+    "static/media/js-svgrepo-com.svg": "/static/media/js-svgrepo-com.8a42639900f9788fa1ea7bb150c5162c.svg",
+    "main.0fb93d00.css.map": "/static/css/main.0fb93d00.css.map",
+    "main.ddf66a6a.js.map": "/static/js/main.ddf66a6a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0fb93d00.css",
+    "static/js/main.ddf66a6a.js"
+  ]
+}
