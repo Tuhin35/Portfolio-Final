@@ -55,18 +55,7 @@ const skills = [
     level: "Advance"
   },
 
-  {
-    name: "Github",
-    img: Github,
-    level: "Moderate"
-  },
-  {
-    name: "Figma",
-    img: Figma,
-    level: "Advance"
-  },
-]
-const familier = [
+  
   {
     name: "Node js",
     img: Node,
@@ -76,6 +65,18 @@ const familier = [
     name: "Express js",
     img: Express,
     level: "Beginner"
+  },
+]
+const familier = [
+  {
+    name: "Github",
+    img: Github,
+    level: "Moderate"
+  },
+  {
+    name: "Figma",
+    img: Figma,
+    level: "Advance"
   },
   {
     name: "Firebase",
@@ -153,7 +154,7 @@ const Services = () => {
           <div>
 
             <div>
-              <h1>Technology I have expertise...</h1>
+              <h1 className='text-xl md:text-[32px] font-semibold text-center text-white md:text-left md:leading-[4.25rem] w-full'>Technology I have expertise...<FcEngineering className="inline-block text-4xl animate-spin" /></h1>
               <motion.div
                variants={fadeIn('up', 0.6)} initial="hidden"
                whileInView={'show'}
