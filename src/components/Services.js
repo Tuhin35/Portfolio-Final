@@ -103,7 +103,7 @@ const familier = [
 const Services = () => {
   return <section className='section my-10' id='service'>
     <div className="container mx-auto">
-      <div className="grid grid-cols-1  lg:grid-cols-2 gap-5">
+      <div className="grid grid-cols-1  lg:grid-cols-2 gap-5 my-auto">
         <motion.div
          variants={fadeIn('left', 0.1)} initial="hidden"
          whileInView={'show'}
@@ -115,7 +115,7 @@ const Services = () => {
             whileInView={'show'}
             viewport={{ once: false, amount: 0.7 }}
           >
-            <h2 className='h2 text-accent mb-6'> what i DO</h2>
+            <h2 className='h2 text-accent my-6'> what i DO</h2>
             <h3 className='h3 max-w-[455px] mb-16'>I'm a Freelancer full stack web Developer with over 5 years of experience</h3>
            <Link to='work'> <button  className='btn btn-sm'>see my work</button></Link>
           </motion.div>
@@ -171,8 +171,8 @@ const Services = () => {
                variants={fadeIn('right', 0.6)} initial="hidden"
                whileInView={'show'}
                viewport={{ once: false, amount: 0.6 }}
-              className="sm:mb-[50px] flex flex-col items-start md:pl-10 mx-auto">
-                <h1 className="text-xl md:text-[52px] font-semibold text-center text-white md:text-left md:leading-[4.25rem] w-full">Others technologies_  <FcEngineering className="inline-block text-4xl animate-spin" /></h1>
+              className="sm:mb-[50px] flex flex-col items-start md:pl-5 mx-auto">
+                <h1 className="text-xl md:text-[32px] font-semibold text-center text-white md:text-left md:leading-[4.25rem]">Others technologies_  <FcEngineering className="inline-block text-4xl animate-spin" /></h1>
                 <p className="text-center md:text-left text-para text-lg  ">Tools, but I have less experience in following</p>
               </motion.div>
               <motion.div

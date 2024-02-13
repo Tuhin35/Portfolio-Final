@@ -31,7 +31,7 @@ module.exports = {
         
         projectTwo: "url('/src/assets/travel.png')",
         projectThree: "url('/src/assets/doctorportal.png')",
-        projectFour: "url('/src/assets/social.png')",
+        projectFour: "url('/src/assets/Event.png')",
       
       },
     },

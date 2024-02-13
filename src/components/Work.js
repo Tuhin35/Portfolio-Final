@@ -39,7 +39,7 @@ const Work = () => {
             data-aos-easing="ease-in-out"
           >
             <div className="w-[100%]   h-full rounded-md   relative bg-top bg-no-repeat bg-cover hover:bg-bottom ease-linear duration-[5000ms] bg-projectOne text-white mx-auto"></div>
-            {/* <img src="https://ashikonweb.netlify.app/static/media/autohunt%20ss.c026b6d0acf6f16f0795.png" alt="" className="w-full h-full object-cover" /> */}
+           
             <div className={`group p-2 absolute left-4 bottom-4 bg-white/20 backdrop-blur-md w-11/12 rounded-md  hover:duration-300 ease-in-out hover:h-[50%] hover:w-[100%] overflow-hidden hover:left-0 hover:bottom-0 `}>
               <h1 className="text-2xl py-4 font-semibold text-gradient">Online Resell market</h1>
               <p className={`text-sm text-para hidden text-black group-hover:block`}>Its a common market place where user can buy and sell secondhand Tv, Ac and refrigerator .</p>
@@ -50,8 +50,36 @@ const Work = () => {
                 }
               </div>
               <div className="flex gap-3 py-2">
-                <a target="_blank" href="http://autohunt-f5b1c.web.app" rel="noreferrer" aria-label="live link" ><FaExternalLinkAlt /></a>
-                <a target="_blank" href="https://github.com/Ashikur540/AutoHunt-Resell-MarketPlace-Client-" rel="noreferrer" aria-label="github"><FaGithub /></a>
+                <a target="_blank" href="https://online-resell.vercel.app/" rel="noreferrer" aria-label="live link" ><FaExternalLinkAlt /></a>
+                <a target="_blank" href="https://github.com/Tuhin35/Online-resell" rel="noreferrer" aria-label="github"><FaGithub /></a>
+
+
+              </div>
+            </div>
+          </motion.div>
+          <motion.div
+           variants={fadeIn('up', 0.2)} 
+           whileInView={'show'}
+           viewport={{ once: false, amount: 0.2 }}
+          className="w-[100%] border-[#ffffff83] border-[1px] h-[400px] rounded-md   relative bg-top bg-no-repeat bg-cover hover:bg-bottom ease-linear duration-[5000ms] text-white mx-auto" data-aos="zoom-in-up"
+            data-aos-delay="100"
+            data-aos-duration="600"
+            data-aos-easing="ease-in-out"
+          >
+            <div className="w-[100%]   h-full rounded-md   relative bg-top bg-no-repeat bg-cover hover:bg-bottom ease-linear duration-[5000ms] bg-projectFour text-white mx-auto"></div>
+            
+            <div className={`group p-2 absolute left-4 bottom-4 bg-white/20 backdrop-blur-md w-11/12 rounded-md  hover:duration-300 ease-in-out hover:h-[50%] hover:w-[100%] overflow-hidden hover:left-0 hover:bottom-0 `}>
+              <h1 className="text-2xl py-4 text-gradient  font-semibold">Event Expert</h1>
+              <p className={`text-sm text-para hidden  text-black group-hover:block`}>You can Booking a many package to tension free for your Event.</p>
+              <div className="mt-4 hidden group-hover:flex flex-wrap items-center justify-start gap-4 mx-auto expertise  cursor-pointer">
+
+                {
+                  images.map((img, i) => <img key={i} src={img} alt="" className="w-5" />)
+                }
+              </div>
+              <div className="flex gap-3 py-2">
+                <a target="_blank" href="https://simple-firebase-authenticicati.web.app/" rel="noreferrer" aria-label="live link" ><FaExternalLinkAlt /></a>
+                <a target="_blank" href="https://github.com/Tuhin35/Travel2" rel="noreferrer" aria-label="github"><FaGithub /></a>
 
 
               </div>
@@ -68,7 +96,7 @@ const Work = () => {
             data-aos-easing="ease-in-out"
           >
             <div className="w-[100%]   h-full rounded-md   relative bg-top bg-no-repeat bg-cover hover:bg-bottom ease-linear duration-[5000ms] bg-projectThree text-white mx-auto"></div>
-            {/* <img src="https://ashikonweb.netlify.app/static/media/autohunt%20ss.c026b6d0acf6f16f0795.png" alt="" className="w-full h-full object-cover" /> */}
+          
             <div className={`group p-2 absolute left-4 bottom-4 bg-white/20 backdrop-blur-md w-11/12 rounded-md  hover:duration-300 ease-in-out hover:h-[50%] hover:w-[100%] overflow-hidden hover:left-0 hover:bottom-0 `}>
               <h1 className="text-2xl py-4 text-gradient font-semibold">Dentist Portal</h1>
               <p className={`text-sm text-para  text-black group-hover:block`}> You can appointment a Dentist at home</p>
@@ -79,8 +107,8 @@ const Work = () => {
                 }
               </div>
               <div className="flex gap-3 py-2">
-                <a target="_blank" href="http://autohunt-f5b1c.web.app" rel="noreferrer" aria-label="live link" ><FaExternalLinkAlt /></a>
-                <a target="_blank" href="https://github.com/Ashikur540/AutoHunt-Resell-MarketPlace-Client-" rel="noreferrer" aria-label="github"><FaGithub /></a>
+                <a target="_blank" href="https://fire-auth-14adf.web.app" rel="noreferrer" aria-label="live link" ><FaExternalLinkAlt /></a>
+                <a target="_blank" href="https://github.com/Tuhin35/doctors-portal" rel="noreferrer" aria-label="github"><FaGithub /></a>
 
 
               </div>
@@ -107,41 +135,14 @@ const Work = () => {
                 }
               </div>
               <div className="flex gap-3 py-2">
-                <a target="_blank" href="http://autohunt-f5b1c.web.app" rel="noreferrer" aria-label="live link" ><FaExternalLinkAlt /></a>
-                <a target="_blank" href="https://github.com/Ashikur540/AutoHunt-Resell-MarketPlace-Client-" rel="noreferrer" aria-label="github"><FaGithub /></a>
+                <a target="_blank" href="https://simple-firebase-authenticicati.web.app/" rel="noreferrer" aria-label="live link" ><FaExternalLinkAlt /></a>
+                <a target="_blank" href="https://github.com/Tuhin35/Travel2" rel="noreferrer" aria-label="github"><FaGithub /></a>
 
 
               </div>
             </div>
           </motion.div>
-          <motion.div
-           variants={fadeIn('up', 0.2)} 
-           whileInView={'show'}
-           viewport={{ once: false, amount: 0.2 }}
-          className="w-[100%] border-[#ffffff83] border-[1px] h-[400px] rounded-md   relative bg-top bg-no-repeat bg-cover hover:bg-bottom ease-linear duration-[5000ms] text-white mx-auto" data-aos="zoom-in-up"
-            data-aos-delay="100"
-            data-aos-duration="600"
-            data-aos-easing="ease-in-out"
-          >
-            <div className="w-[100%]   h-full rounded-md   relative bg-top bg-no-repeat bg-cover hover:bg-bottom ease-linear duration-[5000ms] bg-projectFour text-white mx-auto"></div>
-            {/* <img src="https://ashikonweb.netlify.app/static/media/autohunt%20ss.c026b6d0acf6f16f0795.png" alt="" className="w-full h-full object-cover" /> */}
-            <div className={`group p-2 absolute left-4 bottom-4 bg-white/20 backdrop-blur-md w-11/12 rounded-md  hover:duration-300 ease-in-out hover:h-[50%] hover:w-[100%] overflow-hidden hover:left-0 hover:bottom-0 `}>
-              <h1 className="text-2xl py-4 font-semibold text-gradient">Social Media</h1>
-              <p className={`text-sm text-para hidden text-black group-hover:block`}>In this platform you you can post, comment and react to  other posts .</p>
-              <div className="mt-4 hidden group-hover:flex flex-wrap items-center justify-start gap-4 mx-auto expertise  cursor-pointer">
-
-                {
-                  images.map((img, i) => <img key={i} src={img} alt="" className="w-5" />)
-                }
-              </div>
-              <div className="flex gap-3 py-2">
-                <a target="_blank" href="http://autohunt-f5b1c.web.app" rel="noreferrer" aria-label="live link" ><FaExternalLinkAlt /></a>
-                <a target="_blank" href="https://github.com/Ashikur540/AutoHunt-Resell-MarketPlace-Client-" rel="noreferrer" aria-label="github"><FaGithub /></a>
-
-
-              </div>
-            </div>
-          </motion.div>
+          
         </div>
 
       </div>

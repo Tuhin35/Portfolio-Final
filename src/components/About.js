@@ -11,13 +11,13 @@ const About = () => {
   })
   return <section className='section' id='about' ref={ref}>
     <div className='container mx-auto'>
-      <div className='flex flex-col gap-y-10 lg:flex-row lg:items-center lg:gap-x-20 lg:gap-y-0 h-screen'>
+      <div className='flex flex-col gap-y-10 lg:flex-row lg:items-center lg:gap-x-20 lg:gap-y-0 lg:min-h-[78vh] py-5'>
         <motion.div
           variants={fadeIn('right', 0.3)} initial="hidden"
           whileInView={'show'}
           viewport={{ once: false, amount: 0.3 }}
           className='flex-1 bg-about bg-contain bg-no-repeat h-[640px]
-        mix-blend-lighten bg-top'>
+        mix-blend-lighten bg-top flex items-center flex-col'>
         </motion.div>
         <motion.div
           variants={fadeIn('left', 0.6)} initial="hidden"
@@ -59,12 +59,12 @@ const About = () => {
           </div>
           <motion.div variants={fadeIn('up', 0.6)} initial="hidden"
             whileInView={'show'}
-            viewport={{ once: false, amount: 0.7 }} className='flex max-w-max gap-x-6 items-center my-6 mx-auto lg:mx-0'>
-           <Link to='contact'>
-           <button className=' btn btn-lg'>
-              Contact me
-            </button>
-           </Link>
+            viewport={{ once: false, amount: 0.7 }} className='flex max-w-max gap-x-6  items-center my-6 mx-auto lg:mx-0'>
+            <Link to='contact'>
+              <button className=' btn btn-lg'>
+                Contact me
+              </button>
+            </Link>
             <Link className='text-gradient btn-link'> My Portfolio</Link>
           </motion.div>
         </motion.div>

@@ -8,7 +8,7 @@ import { Link } from 'react-scroll';
 import resume from '../assets/Raihan Uddin Tuhin resume.pdf'
 const Banner = () => {
   return (
-    <section className='min-h-[85vh] lg:min-h-[78vh] flex items-center' id='home'>
+    <section className='min-h-[85vh] lg:min-h-[78vh] flex items-center py-5' id='home'>
       <div className='container mx-auto '>
         <div className='flex flex-col gap-y-8 lg:flex-row lg:items-center
         lg:gap-x-12'>
