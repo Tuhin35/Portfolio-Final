@@ -78,7 +78,7 @@ const Work = () => {
                 }
               </div>
               <div className="flex gap-3 py-2">
-                <a target="_blank" href="https://simple-firebase-authenticicati.web.app/" rel="noreferrer" aria-label="live link" ><FaExternalLinkAlt /></a>
+                <a target="_blank" href="https://event-expert.vercel.app/" rel="noreferrer" aria-label="live link" ><FaExternalLinkAlt /></a>
                 <a target="_blank" href="https://github.com/Tuhin35/Travel2" rel="noreferrer" aria-label="github"><FaGithub /></a>
 
 
